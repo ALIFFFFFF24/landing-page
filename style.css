@@ -1,0 +1,344 @@
+
+.nav-link{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    margin: 0 20px;
+}
+
+.carousel-item > img{
+    width: 1280px;
+    height: 835px;
+}
+
+.contact-us:hover{
+background-color: #0B267D;
+color: white !important;
+}
+
+.carousel-caption > p{
+color: white;
+}
+
+.carousel-caption > h5{
+    color: white;
+    }
+
+.carousel-caption{
+    background-color: rgba(0, 0, 0, .4);
+}
+
+i{
+    font-size: 60px;
+    margin-left: 15px;
+    margin-top: 20px;
+    color: #0B267D;;
+}
+
+.aboutUs{
+    margin-top: 100px;
+}
+
+.textAbout{
+    background-color: #2947A9;
+    width: 488px;
+    height: 523px;
+    position: relative;
+    left: 800px;
+    bottom: 600px;
+    border-radius: 2px;
+}
+
+.aboutTitle{
+    margin-top: 30px;
+    margin-left: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.aboutDesc{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 20px;
+    color: white;
+}
+.gambarAbout {
+    width: 902px;
+    height: 669px;
+    border-radius: 2px;
+}
+
+.btnAbout{
+    margin-left: 30px;
+    margin-top: 90px;
+    width: 219px;
+    height: 53px;
+    border-radius: 6px;
+    border: none;
+    color: #2947A9;
+    font-size: 20px;
+}
+
+.btnAbout:hover{
+    margin-left: 30px;
+    margin-top: 90px;
+    width: 219px;
+    height: 53px;
+    border-radius: 6px;
+    border: 1px solid white;
+    color: white;
+    font-size: 20px;
+    background-color: #2947A9;
+}
+
+.services{
+    margin-top: -500px;
+}
+
+.serviceTitle{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.card-line{
+    width: 80px;
+    height: 2px;
+    background-color: #0B267D;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.card-line-2{
+    width: 80px;
+    height: 2px;
+    background-color: #E0E3EB;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.card-text-service{
+    color: #2947A9;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.card-text-service-2{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+}
+.card2 {
+    background-color: white;
+}
+.card2 {
+    background-color: #2947A9;
+}
+
+.card-kanan{
+    background-color: white;
+    width: 361px;
+    height: 155px;
+    position: relative;
+    left: 300px;
+    top: 40px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-kiri{
+    width: 361px;
+    height: 155px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2), 0 0 0 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+}
+
+
+.card-image-kiri{
+    position: relative;
+    bottom: 50px;
+    right: 50px;
+}
+
+.card-image-kanan{
+    position: relative;
+    bottom: 50px;
+    left: 300px;
+}
+
+.card-image > img {
+    width: 79px;
+    height: 79px;
+}
+.card-number > h1{
+    position: relative;
+    bottom: 80px;
+    left: 30px;
+    font-size: 72px;
+    margin-bottom: 7px;
+}
+
+.card-contact-text{
+    position: relative;
+    bottom: 110px;
+    left: 52px;
+}
+
+.card-contact-text > p{
+font-size: 24px;
+}
+
+.contact-line{
+    position: relative;
+    width: 7px;
+    height: 28px;
+    background-color: #F9995D;
+    bottom: 80px;
+    left: 40px;
+}
+
+
+.card-image-bawah {
+    position: relative;
+    top: 100px;
+    left: 300px;
+}
+
+.bawah {
+    position: relative;
+    bottom: 60px;
+}
+
+.experiences {
+    margin-top: 10px;
+    padding: 100px;
+}
+
+.experience-title{
+    margin-top: 90px;
+    color: #2947A9;
+    font-size: 60px;
+}
+
+.experience-desc{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.btn-experience{
+    margin-top: 90px;
+    color: white;
+    background-color: #2947A9;
+    width: 176px;
+    height: 53px;
+    border: none;
+    border-radius: 2px;
+}
+
+.btn-experience:hover{
+    margin-top: 90px;
+    color: #2947A9;
+    background-color: white;
+    width: 176px;
+    height: 53px;
+    border: 1px solid #2947A9;
+    border-radius: 2px;
+}
+
+.consult{
+    background-image: url(img/consult.png);
+    width: 1440px;
+    height: 300px;
+}
+
+.consult-title{
+    color: white;
+    margin-top: 100px;
+    margin-left: 80px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.consult-text{
+    font-weight: lighter;
+    font-size: 24px;
+    color: white;
+    margin-left: 80px;
+}
+
+.btn-consult{
+    margin-top: 135px;
+    margin-left: 100px;
+}
+
+.projects{
+    margin-top: 100px;
+}
+
+.card-body-project > h5 {
+    
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.card-body-project{
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: #2947A9;
+    color: white;
+}
+
+
+.project-title {
+    color: #2947A9;
+}
+
+.project-title-desc{
+    margin-bottom: 60px;
+}
+
+.form-title{
+    font-size: 36px;
+    margin-top: 100px;
+    font-weight: bold;
+}
+
+.form-desc{
+    font-size: 20px;
+}
+
+.btn-form{
+    width: 271px;
+    height: 53px;
+    background-color: #2947A9;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-size: 18px;
+}
+
+.footer{
+    margin-top: 100px;
+    font-size: 20px;
+}
+
+.btn-footer{
+    border: none;
+    margin-left: 70px;
+    width: 136px;
+    height: 41px;
+    border-radius: 4px;
+    background-color: #F9995D;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .hero-carousel{
+        display: none;
+    }
+}

@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top px-5">
+          <a class="navbar-brand" href="#"><img style="width: 162px; height: 47px;" src="img/logo.svg" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown"> 
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#aboutUs">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link contact-us " style="color: #0B267D; border: 1px solid #0B267D; border-radius: 2px;" href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+      </nav>
+      <!-- END OF NAVBAR -->
+      <!-- HERO -->
+      <section id="hero">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide hero-carousel" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="img/pexels-expect-best-323705.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Grand Hyatt Residence</h5>
+                  <p>Jl. MH. Thamrin Kav. 28 – 30, Jakarta</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="img/pexels-pixabay-269077.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Wisma Mulia</h5>
+                  <p>Kav. 42 Jalan Jendral Gatot Subroto. Kelurahan Kuningan Barat, Mampang Prapatan. Jakarta Selatan 12710</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/pexels-sevenstorm-juhaszimrus-443383.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>UOB Plaza</h5>
+                  <p>Jl. MH. Thamrin No. 10 Kebon Melati Tanah Abang Jakarta Pusat DKI Jakarta</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          
+      </section>
+      <!-- END OF HERO -->
+    
+     <!-- REPUTATION -->
+      <section id="reputation">
+          <h1 class="text-center my-5">Our Reputation</h1>
+          <div class="container">
+            <div class="row row-cols-3">
+                <div class="col w-25 mx-auto">
+                  <div class="card">
+                    <i class='bx bx-phone-call'></i>
+                    <div class="card-body">
+                      <h5 class="card-title">Best Services</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col w-25 mx-auto">
+                  <div class="card">
+                    <i class='bx bx-male-female'></i>
+                    <div class="card-body">
+                      <h5 class="card-title">Best Teams</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col w-25 mx-auto">
+                  <div class="card">
+                    <i class='bx bx-building-house'></i>
+                    <div class="card-body">
+                      <h5 class="card-title">Best Designs</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+      </section>
+      <!-- END OF REPUTATION -->
+      <!-- ABOUT US -->
+      <section id="aboutUs">
+          <div class="aboutUs container">
+            <div class="row g-0">
+                <div class="gambarAbout">
+                    <img class="w-100 " src="img/om.svg" alt="">
+                </div>
+                <div class="textAbout">
+                    <h1 class="aboutTitle">About Us</h1>
+                    <p class="aboutDesc">For more than 30 years we have been
+                      delivering world-class construction and we've built many lasting
+                      relationships along the way.
+                    </p>
+                    <p class="aboutDesc">We've matured into an industry leader 
+                      and trusted resource for those seeking 
+                      quality, innovation and reliability when
+                      building in the Indonesia
+                    </p>
+                    <button type="button" class="btnAbout">More on Our History</button>
+                </div>
+              </div>
+          </div>
+      </section>
+      <!-- END OF ABOUT US -->
+      <!-- SERVICES -->
+      <section id="services">
+        <div class="container services">
+          <h1 class="serviceTitle">Services</h1>
+          <div class="row row-cols-3">
+              <div class="col w-25 mx-auto">
+                <div class="card card1">
+                  <i class='bx bx-buildings text-center mt-5'></i>
+                  <div class="card-body">
+                    <div class="card-line"></div>
+                    <p class="card-text-service">Construction</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col w-25 mx-auto">
+                <div class="card card2">
+                  <i class='bx bx-wrench text-center mt-5 text-light' ></i>
+                  <div class="card-body">
+                    <div class="card-line-2"></div>
+                    <p class="card-text-service-2">Renovation</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col w-25 mx-auto">
+                <div class="card">
+                  <i class='bx bx-chat text-center mt-5' ></i>
+                  <div class="card-body">
+                    <div class="card-line"></div>
+                    <p class="card-text-service">Consultation</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row row-cols-3 mt-5">
+              <div class="col w-25 mx-auto">
+                <div class="card card2">
+                  <i class='bx bxs-briefcase text-light text-center mt-5'></i>
+                  <div class="card-body">
+                    <div class="card-line-2"></div>
+                    <p class="card-text-service-2">Repair Service</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col w-25 mx-auto">
+                <div class="card card1">
+                  <i class='bx bx-map-alt text-center mt-5' ></i>
+                  <div class="card-body">
+                    <div class="card-line"></div>
+                    <p class="card-text-service">Architecture</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col w-25 mx-auto">
+                <div class="card card2">
+                  <i class='bx bx-candles text-light text-center mt-5' ></i>
+                  <div class="card-body">
+                    <div class="card-line-2"></div>
+                    <p class="card-text-service-2">Electric</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+      <!-- END OF SERVICES -->
+      <!-- EXPERIENCES -->
+      <section id="experiences">
+        <div class="container experiences">
+          <div class="row">
+            <div class="col-9">
+              <div class="card-kanan">
+                <div class="card-image-kanan">
+                  <img src="img/contact1.png" alt="">
+                </div>
+                <div class="card-number">
+                  <h1>84</h1>
+                </div>
+                <div class="contact-line">
+                </div>
+                <div class="card-contact-text">
+                  <p>Happy Clients</p>
+                </div>
+                </div>
+                <div class="card-kiri">
+                  <div class="card-image-kiri">
+                    <img src="img/contact2.png" alt="">
+                  </div>
+                  <div class="card-number">
+                    <h1>123</h1>
+                  </div>
+                  <div class="contact-line">
+                  </div>
+                  <div class="card-contact-text">
+                    <p>Projects Completed</p>
+                  </div>
+                </div>
+                <div class="bawah">
+                  <div class="card-kanan">
+                    <div class="card-image-kanan">
+                      <img src="img/contact3.png" alt="">
+                    </div>
+                    <div class="card-number">
+                      <h1>37</h1>
+                    </div>
+                    <div class="contact-line">
+                    </div>
+                    <div class="card-contact-text">
+                      <p>Awards Win</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="card-kiri">
+                      <div class="card-image-bawah">
+                        <img src="img/contact4.png" alt="">
+                      </div>
+                      <div class="card-number">
+                        <h1>30</h1>
+                      </div>
+                      <div class="contact-line">
+                      </div>
+                      <div class="card-contact-text">
+                        <p>Years in Business</p>
+                      </div>
+                    </div>
+                </div>
+        </div>
+            </div>
+            <div class="col-3">
+            <h1 class="experience-title">30 YEARS EXPERIENCE</h1>
+            <p class="experience-desc">Our company has been the 
+              leading provided construction 
+              services to clients throughout 
+              the USA since 1988</p>
+            <button class="btn-experience">Contact Us</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END OF EXPERIENCES -->
+      <!-- CONSULTATION -->
+      <section id="consult">
+        <div class="container consult">
+          <div class="row">
+            <div class="col-lg-8">
+              <h1 class="consult-title">Free consultation with exceptional quality</h1>
+              <p class="consult-text">Just one call away: <u>+84 1102 2703</u></p>
+            </div>
+            <div class="col-4">
+              <button class="btn btn-consult btn-outline-light">Get your consultation</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END OF CONSULTATION -->
+      <!-- PROJECTS -->
+      <section id="projects">
+
+        <div class="projects container ">
+          <h1 class="project-title text-center">WHAT WE DO IN 30 YEARS</h1>
+          <p class="project-title-desc text-center">How 30 years of work experience look like</p>
+              <div class="row justify-content-center">
+                <div class="card-project" style="width: 20rem;">
+                  <img src="img/project3.png" class="img-fluid d-block" alt="...">
+                  <div class="card-body-project">
+                    <h5>Wildstone Infra Hotel</h5>
+                    <p class="card-text">2715 Ash Dr. San Jose, South Dakota</p>
+                  </div>
+                </div>
+                <div class="card-project" style="width: 20rem;">
+                  <img src="img/project2.png" class="img-fluid d-block" alt="...">
+                  <div class="card-body-project">
+                    <h5>Wildstone Infra Hotel</h5>
+                    <p class="card-text">2715 Ash Dr. San Jose, South Dakota</p>
+                  </div>
+                </div>
+                <div class="card-project" style="width: 20rem;">
+                  <img src="img/project1.png" class="img-fluid d-block" alt="...">
+                  <div class="card-body-project">
+                    <h5>Wildstone Infra Hotel</h5>
+                    <p class="card-text">2715 Ash Dr. San Jose, South Dakota</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row mt-5 justify-content-center">
+                <div class="card-project" style="width: 20rem;">
+                  <img src="img/project4.jpg" class="img-fluid d-block" alt="...">
+                  <div class="card-body-project">
+                    <h5>Wildstone Infra Hotel</h5>
+                    <p class="card-text">2715 Ash Dr. San Jose, South Dakota</p>
+                  </div>
+                </div>
+                <div class="card-project" style="width: 20rem;">
+                  <img src="img/project5.jpg" class="img-fluid d-block" alt="...">
+                  <div class="card-body-project">
+                    <h5>Wildstone Infra Hotel</h5>
+                    <p class="card-text">2715 Ash Dr. San Jose, South Dakota</p>
+                  </div>
+                </div>
+                <div class="card-project" style="width: 20rem;">
+                  <img src="img/project3.png" class="img-fluid d-block" alt="...">
+                  <div class="card-body-project">
+                    <h5>Wildstone Infra Hotel</h5>
+                    <p class="card-text">2715 Ash Dr. San Jose, South Dakota</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+      <!-- END OF PROJECTS -->
+      <!-- FORM -->
+      <section id="form">
+        <div class="container" style="background-color: #F6F8F7; height: 490px;">
+          <div class="form text-center">
+            <h1 class="form-title">What can us do for you?</h1>
+            <p class="form-desc">We are ready to work on a project of any complexity,<br>whether it's commercial or residential.</p>
+          </div>
+          <div class="row">
+            <div class="col-2">
+
+            </div>
+            <div class="col-8 text-center">
+              <input style="width: 280px; height: 41px;" type="text" placeholder="Your name*">
+              <input style="width: 280px; height: 41px; margin-left: 76px;" type="text" placeholder="Email*">
+        </div>
+        <div class="col-2">
+        </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-3">
+
+            </div>
+            <div class="col-6  ">
+              <input style="width: 640px;" type="text" placeholder="Phone">
+        </div>
+        <div class="col-3">
+        </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-3">
+
+            </div>
+            <div class="col-6">
+             <textarea name="" id="" cols="84" rows="5" placeholder="Message"></textarea>
+             <p style="color: #667299;">* indicates a require field</p>
+        </div>
+        <div class="col-3">
+        </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-4">
+
+            </div>
+            <div class="col-4 text-center">
+             <button class="btn-form">Submit</button>
+        </div>
+        <div class="col-4">
+        </div>
+          </div>
+        </div>
+        </div>
+      </section>
+      <!-- END OF FORM -->
+      <!-- FOOTER -->
+      <section id="footer">
+        <div class="container">
+          <div class="row footer">
+            <div class="col-8 ">
+              <p>ADDRESS: 6391 Elgin St. Celine, Delaware 109299</p>
+              <p>PHONE: +84 1102 2703</p>
+              <p>EMAIL: hello@thebox.com</p>
+              <img style="width: 1;" src="img/logo.svg" alt="">
+            </div>
+            <div class="col-4">
+              <p style="color: #0B267D;">NEWSLETTER:</p>
+              <div class="row">
+                <div class="col-6">
+                  <input style="width: 280px; height: 41px; border-radius: 4px; border: 1px solid #E0E3EB;" type="text" placeholder="Your email here">
+                </div>
+                <div class="col-6">
+                  <button class="btn-footer">Subscribe</button>
+                </div>
+              </div>
+              <p style="color: #0B267D;" class="mt-3">SOCIAL:</p>
+              <div class="row g-0">
+                <div class="col-1">
+                 <img src="img/akar-icons_facebook-fill.png" alt="">
+                </div>
+                <div class="col-1 mx-3 ">
+                  <img src="img/entypo-social_twitter-with-circle.png" alt="">
+                </div>
+                <div class="col-1">
+                  <img src="img/entypo-social_linkedin-with-circle.png" alt="">
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style="background-color: #0B267D; height: 70px; margin-top: 100px;" class="container-fluid">
+          <p class="text-center text-light pt-4">TheBox Company © 2022. All Rights Reserved</p>
+        </div>
+      </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    
+  </body>
+</html>
